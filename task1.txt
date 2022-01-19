@@ -1,0 +1,16 @@
+Following things will be done:
+
+2.0 After checking the internet, I will search troubleshoots 
+
+2.1 Check if host IP address is correctly typed.
+
+2.2 (Firewall rules) I would also check the incoming rules allowed by the security group 
+(there was a moment when the firewall started up "ufw" and all ports were blocked, 
+therefore I couldn’t access my server. Then I called the customer support center)
+In Azure, Aws, and Google Cloud, this is easier process because you can enable and disable ports 
+from the developer console network security policy.
+
+2.3 Check if service is running properly (Is it running or not)
+
+2.4 If server is connected to Cloudflare , I will add to CNAME record 
+to connect via domain name (www.example.com) or I will connect via the server's IP address
